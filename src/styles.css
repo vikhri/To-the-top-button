@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+.upbutton {
+  background-color: rgba(23, 5, 56, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
